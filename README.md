@@ -48,3 +48,47 @@ Lastly, we implemented conditional logic (`if-else`) to categorize hostels by oc
 2. Open the project folder GROUP-3-HOSTELS.
 3. Locate GROUP3HOSTELS.java in the com.ndejje.gis.hostels package.
 4. Right click the file and select Run File (or press Shift + F10).
+
+## Execution Output
+```text
+==========================================
+   GEO2102 GROUP 3 FIELD MAPPING REPORT    
+==========================================
+
+ID: H11 | Name: Lugoba Hostel
+Type: Not self-contained (Single)
+Price: UGX 400000.0 | Status: Partially Occupied
+Coordinates: (0.60381995, 32.477415)
+Fully Occupied: false
+------------------------------------------------
+ID: H12 | Name: Blue Sheets Hostel
+Type: Self-contained (Single)
+Price: UGX 700000.0 | Status: Occupied
+Coordinates: (0.60435603, 32.477067)
+Fully Occupied: true
+------------------------------------------------
+ID: H13 | Name: Sofi Hostel
+Type: Self-contained (Single)
+Price: UGX 1200000.0 | Status: Partially Occupied
+Coordinates: (0.60272802, 32.47707)
+Fully Occupied: false
+------------------------------------------------
+ID: H14 | Name: Bwino Hostel
+Type: Not self-contained (Single)
+Price: UGX 400000.0 | Status: Occupied
+Coordinates: (0.60202834, 32.477371)
+Fully Occupied: true
+------------------------------------------------
+ID: H15 | Name: Elpa 2 Hostel
+Type: Self-contained
+Price: UGX 900000.0 | Status: Partially Occupied
+Coordinates: (0.60055991, 32.477305)
+Fully Occupied: false
+------------------------------------------------
+==========================================
+            SUMMARY RESULTS                
+==========================================
+Average Rental Price: UGX 720000.0
+Number of Fully Occupied Hostels: 2
+Number of Not Fully Occupied Hostels: 3
+==========================================
